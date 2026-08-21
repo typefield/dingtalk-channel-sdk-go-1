@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/typefield/dingtalk-channel-sdk-go/internal/safety"
+	"github.com/DingTalk-Real-AI/dingtalk-channel-sdk-go/internal/safety"
 )
 
 func boolPtr(b bool) *bool { return &b }

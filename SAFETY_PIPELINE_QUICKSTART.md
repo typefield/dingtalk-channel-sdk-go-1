@@ -11,8 +11,8 @@ import (
     "context"
     "log"
     
-    "github.com/typefield/dingtalk-channel-sdk-go/internal/safety"
-    "github.com/typefield/dingtalk-channel-sdk-go/types"
+    "github.com/DingTalk-Real-AI/dingtalk-channel-sdk-go/internal/safety"
+    "github.com/DingTalk-Real-AI/dingtalk-channel-sdk-go/types"
 )
 
 func main() {
