@@ -138,7 +138,7 @@ func TestGroupOverrideE2EThroughPipeline(t *testing.T) {
 		called = true
 		return nil
 	})
-	ch.dispatchFrame(t.Context(), botFrame("m-ov", "b-ov", "hi", srv.URL+"/webhook"))
+	ch.dispatchFrame(context.Background(), botFrame("m-ov", "b-ov", "hi", srv.URL+"/webhook"))
 
 	select {
 	case <-done:
